@@ -28,3 +28,9 @@ nav ul li a {
 nav ul li a:hover {
   color: #ffcc00; /* Color al pasar el cursor por encima */
 }
+.titulo-llamativo {
+  text-align: center;
+  padding: 100px 20px; /* Ajusta el relleno según sea necesario */
+  color: #333; /* Color de texto para el título */
+  background-color: #f5f5f5; /* Color de fondo para el título */
+}
