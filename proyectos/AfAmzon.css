@@ -10,5 +10,5 @@ body {
     background-color: #f1d2d2; /* Color de fondo para el título */
   }
   .titulo-llamativo h1{
-    size: 36px;
+    font-size: 50px;
   }
