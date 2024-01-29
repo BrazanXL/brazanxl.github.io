@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Portafoleo</title>
-  <link rel="stylesheet" href="/components/CSS/css.css">
+	<meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="/components/JS/script.js"></script>	
+	<link rel="stylesheet" type="text/css" href="/components/CSS/style.css" />
+	<title>Windows Template</title>
 </head>
 <body>
-
-<header>
-  <nav>
-    <ul>
-      <li><a href="#inicio">Inicio</a></li>
-      <li><a href="#sobre-mi">Sobre mí</a></li>
-      <li><a href="/proyectos/proyectos.html">Proyectos</a></li>
-      <li><a href="#contacto">Contacto</a></li>
-    </ul>
-  </nav>
-</header>
-<main>
-  <section id="titulo-llamativo" class="titulo-llamativo">
-    <h1>En Mantenimiento</h1>
-  </section>
+	<div id="desktop">
+		<div class="window" data-title="Inicio">
+			
+		</div>
+		<div class="window closed" data-title="Proyectos">
+			Second Window
+		</div>
+		<div class="window closed" data-title="Contacto">
+			Third window starts closed
+		</div>
+		<div class="window closed" data-title="Sobre mi">
+			<h1>Free Windows Template</h1>
+			<p>Minimize the windows to the taskbar, make them full screen or close them.</p>
+			<p>Drag the title bar to move the windows or resize them from the bottom right corner.</p>
+			<hr />
+			<p><strong>You can download and edit this template freely as long as you leave a visible link to HTML5-Templates.com</strong></p>
+		</div>
+		
+		<div id="taskbar">		
+		</div>
+		
+		<div id="icons">
+			<a class="openWindow" data-id="0">Inicio</a>
+			<a class="openWindow" data-id="1">Proyectos</a>
+			<a class="openWindow" data-id="2">Contacto</a>
+			<a class="openWindow" data-id="3">Sobre mi</a>
+		</div>
+	</div>
 </body>
+
 </html>
