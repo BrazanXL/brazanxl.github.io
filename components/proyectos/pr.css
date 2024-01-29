@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #6474a8;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffffc7;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #eeff00; /* Color al pasar el cursor por encima */
+  }
+  .titulo-llamativo {
+    text-align: center;
+    padding: 100px 20px; /* Ajusta el relleno según sea necesario */
+    color: #585252; /* Color de texto para el título */
+    background-color: #f1d2d2; /* Color de fondo para el título */
+  }
