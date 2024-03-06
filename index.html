@@ -1,45 +1,80 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	<script src="/components/JS/script.js"></script>	
-	<link rel="stylesheet" type="text/css" href="/components/CSS/style.css" />
-	<title>Windows Template</title>
-</head>
-<body>
-	<div id="desktop">
-		<div class="window" data-title="Inicio">
-			
-		</div>
-		<div class="window closed" data-title="Proyectos">
-			Second Window
-		</div>
-		<div class="window closed" data-title="Contacto">
-			Third window starts closed
-		</div>
-		<div class="window closed" data-title="Sobre mi">
-			<h1>Free Windows Template</h1>
-			<p>Minimize the windows to the taskbar, make them full screen or close them.</p>
-			<p>Drag the title bar to move the windows or resize them from the bottom right corner.</p>
-			<hr />
-			<p><strong>You can download and edit this template freely as long as you leave a visible link to HTML5-Templates.com</strong></p>
-		</div>
-		
-		<div id="taskbar">		
-		</div>
-		
-		<div id="icons">
-			<a class="openWindow" data-id="0">Inicio</a>
-			<a class="openWindow" data-id="1">Proyectos</a>
-			<a class="openWindow" data-id="2">Contacto</a>
-			<a class="openWindow" data-id="3">Sobre mi</a>
-		</div>
-	</div>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="/components/JS/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="/components/CSS/style.css" />
+    <title>Portafoleo</title>
+  </head>
+  <body>
+    <div id="desktop">
+      <div class="window" data-title="Inicio">
+        <h1>Hello everyone and welcome</h1>
+      </div>
+      <div class="window closed" data-title="Proyectos">
+        <h2>Mis Proyectos</h2>
+        ...
+        <div class="project highlight">
+          <img
+            src="/path/to/thumbnail1.jpg"
+            alt="Thumbnail for Proyecto 1"
+            width="100"
+            height="100"
+          />
+          <h3>Proyecto 1</h3>
+          <p>Descripción del proyecto 1.</p>
+        </div>
+        ...
+        <div class="project">
+          <img
+            src="/path/to/thumbnail2.jpg"
+            alt="Thumbnail for Proyecto 2"
+            width="100"
+            height="100"
+          />
+          <h3>Proyecto 2</h3>
+          <p>Descripción del proyecto 2.</p>
+        </div>
+        ...
+        <div class="project">
+          <img
+            src="/path/to/thumbnail3.jpg"
+            alt="Thumbnail for Proyecto 3"
+            width="100"
+            height="100"
+          />
+          <h3>Proyecto 3</h3>
+          <p>Descripción del proyecto 3.</p>
+        </div>
+        ...
+      </div>
+      <div class="window closed" data-title="Contacto">Contacto</div>
+      <div class="window closed" data-title="Sobre mi">
+        <p>
+          I am Bryan Pantoja, a junior frontend programmer with experience in
+          web-oriented languages and native Windows application systems.
+        </p>
+        <p></p>
+        <hr />
+        <p><strong></strong></p>
+      </div>
 
+      <div id="taskbar"></div>
+
+      <div id="icons">
+        <a class="openWindow" data-id="0">Inicio</a>
+        <a class="openWindow" data-id="1">Proyectos</a>
+        <a class="openWindow" data-id="2">Contacto</a>
+        <a class="openWindow" data-id="3">Sobre mi</a>
+      </div>
+    </div>
+  </body>
 </html>
