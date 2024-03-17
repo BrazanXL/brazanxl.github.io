@@ -1,58 +1,40 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
-    />
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="/components/JS/script.js"></script>
-    <link rel="stylesheet" type="text/css" href="/components/CSS/style.css" />
-    <title>Portafoleo</title>
-  </head>
-  <body>
-    <div id="desktop">
-      <div class="window" data-title="Inicio">
-        <h1>Hello everyone and welcome</h1>
-      </div>
-      <div id="windowProyectos" class="window closed" data-title="Proyectos">
-        <h2>Mis Proyectos</h2>
-        ...
-        <div class="project">
-          <img
-            src="assets/img/SIM.jpg"
-            alt="Thumbnail for Proyecto 1"
-          />
-          <h3>SIM</h3>
-          <p>Descripción del proyecto 1.</p>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafoleo | Bryan Pantoja</title>
+    <link rel="stylesheet" href="/components/CSS/css.css">
+</head>
+
+<body>
+    <div class="desktop">
+        <div class="menu">
         </div>
-		...
-      </div>
-      <div class="window closed" data-title="Contacto">Contacto</div>
-      <div class="window closed" data-title="Sobre mi">
-        <p>
-          I am Bryan Pantoja, a junior frontend programmer with experience in
-          web-oriented languages and native Windows application systems.
-        </p>
-        <p></p>
-        <hr />
-        <p><strong></strong></p>
-      </div>
-
-      <div id="taskbar"><div class="footer">
-		<p>Copyright © 2023 Bryan Pantoja. All rights reserved.</p>
-	  </div></div>
-
-      <div id="icons">
-        <a class="openWindow" data-id="0">Inicio</a>
-        <a class="openWindow" data-id="1">Proyectos</a>
-        <a class="openWindow" data-id="2">Contacto</a>
-        <a class="openWindow" data-id="3">Sobre mi</a>
-      </div>
+        <div class="macos-window" id="window1">
+            <div class="macos-titlebar">
+                <div class="macos-title">En Desarrollo</div>
+                <div class="macos-buttons">
+                    <div class="macos-button red" onclick="closeWindow('window1')"></div>
+                    <div class="macos-button yellow" onclick="minimizeWindow('window1')"></div>
+                    <div class="macos-button green" onclick="maximizeWindow('window1')"></div>
+                </div>
+            </div>
+            <div class="macos-content">
+                <!-- Contenido de la ventana -->
+                <h1>Welcome to My Web</h1>
+                <p>esta bajo mantenimiento .</p>
+            </div>
+        </div>
+        
     </div>
-  </body>
+    <div class="taskbar">
+        <div class="taskbar-icons">
+            <!-- Aquí puedes agregar iconos u otros elementos de la barra de tareas -->
+        </div>
+    </div>
+    <script src="/components/JS/js.js"></script>
+</body>
+
 </html>
